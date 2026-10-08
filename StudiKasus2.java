@@ -26,6 +26,18 @@ public class StudiKasus2 {
                 } else {
                     System.out.println("Status : Tidak lolos pendanaan.");
                 }
+                } else if (jenisKegiatan.equals("PKM")) {
+                System.out.print("Status pendanaan PKM (1 = lolos, 0 = tidak lolos) : ");
+                int statusPendanaan = sc.nextInt();
+
+                if (statusPendanaan == 1) {
+                    System.out.println("Status : Selamat, " + nama + " berhak mendapatkan dana penghargaan PKM!");
+                } else {
+                    System.out.println("Status : Tidak lolos pendanaan.");
+                }
+            } else {
+                System.out.println("Status : Tidak lolos pendanaan.");
+
                         }
         }
 
